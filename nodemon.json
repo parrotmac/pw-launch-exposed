@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "server"
+  ],
+  "ext": "ts",
+  "exec": "tsx",
+  "args": [
+    "server/index.ts"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "restartable": "rs",
+  "verbose": true
+}
